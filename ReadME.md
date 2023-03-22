@@ -70,12 +70,12 @@
   "resultMessage": ""
   }
 ```
-|param|type|desc|
-|------|---|---|
-|query|String|required|
-|sort|String|recency, accuracy(default)|
-|page|Int|1(default)~51|
-|size|Int|1(default)~51|
+|param|type| desc                       |
+|------|---|----------------------------|
+|query|String| required                   |
+|sort|String| recency, accuracy(default) |
+|page|Int| 1(default)~50              |
+|size|Int| 1(default)~50              |
 
 
 - GET {endpoint}/api/v1/pop
