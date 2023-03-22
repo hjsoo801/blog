@@ -9,7 +9,7 @@
 
 
 ## jar 다운로드 경로
-
+[jar 다운로드](https://github.com/hjsoo801/blog/raw/main/libs/search-0.0.1-SNAPSHOT.jar)
 
 
 ## Project 환경
@@ -43,7 +43,7 @@
 ## API 명세
 - GET {endpoint}/api/v1/search
 ```
-  curl --location 'localhost:8080/api/v1/search?query=카카오&sort=accuracy&page=1&size=1
+  curl --location 'localhost:8080/api/v1/search?query=카카오&sort=accuracy&page=1&size=1'
   
   # 200 OK Content-Type: application/json
   
@@ -80,7 +80,7 @@
 
 - GET {endpoint}/api/v1/pop
 ```
-  curl --location 'localhost:8080/api/v1/pop
+  curl --location 'localhost:8080/api/v1/pop'
   # 200 OK Content-Type: application/json
   {
   "status": "SUCCESS",
