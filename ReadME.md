@@ -43,7 +43,7 @@
 ## API 명세
 - GET {endpoint}/api/v1/search
 ```
-  curl --location 'localhost:8080/api/v1/search?query=카카오&sort=accuracy&page=1&size=1'
+  curl --location 'localhost:8080/api/v1/search?query=kakao&sort=accuracy&page=1&size=1'
   
   # 200 OK Content-Type: application/json
   
